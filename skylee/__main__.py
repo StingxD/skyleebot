@@ -26,14 +26,14 @@ Hey there! my name is *{dispatcher.bot.first_name}*. If you have any questions o
 I'm here to make your group management fun and easy!
 i have lots of handy features, such as flood control, a warning system, a note keeping system, and even replies on predetermined filters.
 
-Any issues or need help related to me? join our group [skylee support chat](https://t.me/skyleebot).
+Any issues or need help related to me? join our group [sushant support chat](https://t.me/sushantsingh_probot).
 
 Wanna Add me to your Group? Just click the button below!
 """
 
 buttons = [[
-InlineKeyboardButton(text="Add to Group 👥", url="t.me/skylee_bot?startgroup=true"),
-InlineKeyboardButton(text="Updates 📢", url="https://t.me/skyleeupdates")
+InlineKeyboardButton(text="Add to Group 👥", url="t.me/sushantsingh_probot?startgroup=true"),
+InlineKeyboardButton(text="Updates 📢", url="https://t.me/jokerupdates")
                   ]]
 
 buttons += [[InlineKeyboardButton(text="Help & Commands ❔", callback_data="help_back")]]
