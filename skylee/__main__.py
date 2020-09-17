@@ -26,14 +26,14 @@ Hey there! my name is *{dispatcher.bot.first_name}*. If you have any questions o
 I'm here to make your group management fun and easy!
 i have lots of handy features, such as flood control, a warning system, a note keeping system, and even replies on predetermined filters.
 
-Any issues or need help related to me? join our group [skylee support chat](https://t.me/skyleebot).
+Any issues or need help related to me? join our group [Jokerman support chat](https://t.me/JokerManSupport).
 
 Wanna Add me to your Group? Just click the button below!
 """
 
 buttons = [[
-InlineKeyboardButton(text="Add to Group 👥", url="t.me/skylee_bot?startgroup=true"),
-InlineKeyboardButton(text="Updates 📢", url="https://t.me/skyleeupdates")
+InlineKeyboardButton(text="Add to Group 👥", url="t.me/jokerman_probot?startgroup=true"),
+InlineKeyboardButton(text="Updates 📢", url="https://t.me/jokermanupdates")
                   ]]
 
 buttons += [[InlineKeyboardButton(text="Help & Commands ❔", callback_data="help_back")]]
@@ -149,7 +149,7 @@ def start(update, context):
 
         else:
             update.effective_message.reply_photo(
-            "https://telegra.ph/file/4edfb3738a35bdfa1922f.jpg",
+            "https://telegra.ph/file/e7e0a3706e04f2f77be14.jpg",
             PM_START_TEXT, reply_markup=InlineKeyboardMarkup(buttons),
             parse_mode=ParseMode.MARKDOWN, timeout=60, disable_web_page_preview=True)
     else:
